@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <h1 class="header">Wheather App</h1>
+    <div class="box" id="box">
+      <h3>Live Wheather</h3>
+      <h2>World Wheather Report</h2>
+      <h4>
+        Uses openwheathermaps API and provides live wheather based on the city
+        you provide
+      </h4>
+      <form action="/data" method="post" class="inputcard">
+        <span> City Name:</span>
+        <input type="text" placeholder="Enter City Name " name="city" />
+        <button type="submit" style="background-color: aqua">Show</button>
+      </form>
+      <h5>Designed by Mahe</h5>
+    </div>
+  </body>
+</html>
